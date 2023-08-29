@@ -54,9 +54,11 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 ">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
-                <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nuestros Repositorios</h2>
-                <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection
-                    of open-source web components and elements built with the utility classes from Tailwind</p>
+                <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nuestros
+                    Repositorios</h2>
+                <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore toda la colección de
+                    elementos y
+                    componentes de código abierto creados por AG.</p>
             </div>
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
@@ -69,8 +71,13 @@
                             <a href="#">JAVA</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Oracle</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Bonnie drives the technical
-                            strategy of the flowbite platform and brand.</p>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Java es un lenguaje de
+                            programación
+                            que se compila en bytecode y se ejecuta en una máquina virtual, lo que permite que el código
+                            se ejecute
+                            en cualquier plataforma con una JVM instalada, y ofrece un gran conjunto de bibliotecas
+                            estándar para facilitar
+                            el desarrollo de aplicaciones.</p>
                         <ul class="flex space-x-4 sm:mt-0">
                             <li>
                                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -91,8 +98,9 @@
                             <a href="#">PHP</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Rasmus Lerdorf</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Jese drives the technical
-                            strategy of the flowbite platform and brand.</p>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> es un lenguaje de código
+                            abierto muy popular especialmente
+                            adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
                         <ul class="flex space-x-4 sm:mt-0">
                             <li>
                                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -105,8 +113,7 @@
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="/Icon/Icon_Laravel.png"
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Laravel.png"
                             alt="Michael Avatar">
                     </a>
                     <div class="p-5">
@@ -114,8 +121,12 @@
                             <a href="#">LARAVEL</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Framework de PHP</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Michael drives the technical
-                            strategy of the flowbite platform and brand.</p>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Laravel es un framework PHP
+                            gratis y
+                            de código abierto que brinda un conjunto de herramientas y recursos para crear aplicaciones
+                            modernas.
+                            Posee un ecosistema integral que combina funciones integradas y una variedad de paquetes y
+                            extensiones compatibles. .</p>
                         <ul class="flex space-x-4 sm:mt-0">
                             <li>
                                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -129,8 +140,7 @@
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                            src="/Icon/Icon_BaseDatos.png"
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_BaseDatos.png"
                             alt="Sofia Avatar">
                     </a>
                     <div class="p-5">
@@ -138,7 +148,10 @@
                             <a href="#">MODELADO DE BASE DE DATOS</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Sql</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"></p>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> El modelado de datos es el
+                            proceso de creación de una
+                            representación visual o esquema que define los sistemas de recopilación y administración de
+                            información de cualquier organización.</p>
                         <ul class="flex space-x-4 sm:mt-0">
                             <li>
                                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -156,11 +169,19 @@
     {{-- Sesion de servicios --}}
     <section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:px-6">
-            <div class="max-w-screen-md mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">¿QUÉ TENEMOS PARA
-                    OFRECERTE?</h2>
-                <p class="text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where
-                    technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+            <div class="" style="margin: 0; width: 100%; text-align: justify;">
+                <center>
+                    <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">¿QUÉ TENEMOS
+                        PARA OFRECERTE?</h2>
+                </center>
+                <br>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOC OF STUDY, nos hemos enfocado en la
+                    creación de repositorios de código abierto. A travésde esta iniciativa, buscamos impulsar el avance tecnológico y ofrecer herramientas que sean de gran
+                    utilidad para la comunidad. Cada línea de código que compartimos es un paso hacia adelante en la colaboración global, permitiendo a desarrolladores y
+                    entusiastas acceder a soluciones innovadoras. Creemos en el poder de la comunidad para transformar ideas en realidades tangibles. Al proporcionar recursos
+                     abiertos, aspiramos a fomentar el aprendizaje, la creatividad y el progreso en el mundo de la tecnología.</p>
+                <br>
+                <br>
             </div>
             <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
                 <div>
@@ -174,8 +195,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Plan it, create it, launch it. Collaborate seamlessly
-                        with all the organization and hit your marketing goals every month with our marketing plan.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Promovemos colaboración global mediante repositorios de código. Únete a la innovación tecnológica con AG y BLOC OF STUDY.</p>
                 </div>
                 <div>
                     <div
@@ -188,8 +208,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Protect your organization, devices and stay compliant
-                        with our structured workflows and custom permissions made for you.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Garantizamos cumplimiento legal en repositorios de código abierto. Confianza y transparencia son nuestra prioridad.</p>
                 </div>
                 <div>
                     <div
@@ -205,8 +224,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Auto-assign tasks, send Slack messages, and much more.
-                        Now power up with hundreds of new templates to help you get started.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Simplificamos procesos con automatización empresarial en AG y BLOC OF STUDY. Libera tiempo para lo esencial.</p>
                 </div>
                 <div>
                     <div
@@ -222,8 +240,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Audit-proof software built for critical financial
-                        operations like month-end close and quarterly budgeting.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Gestión financiera sólida impulsa nuestra labor en repositorios de código. Transparencia en cada paso.</p>
                 </div>
                 <div>
                     <div
@@ -236,8 +253,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Craft beautiful, delightful experiences for both
-                        marketing and product with real cross-company collaboration.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Diseño empresarial centrado en usuarios, reflejado en repositorios de AG y BLOC OF STUDY. Tecnología con propósito.</p>
                 </div>
                 <div>
                     <div
@@ -250,8 +266,7 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Keep your company’s lights on with customizable,
-                        iterative, and structured workflows built for all efficient teams and individual.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Operaciones eficientes para brindar soluciones tecnológicas desde AG y BLOC OF STUDY. Avanzando juntos.</p>
                 </div>
             </div>
         </div>
@@ -283,12 +298,10 @@
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-                    href="https://flowbite.com/" class="hover:underline">BLOC OF STUDY™</a>. All Rights
+                    href="{{ route('welcome') }}" class="hover:underline">BLOC OF STUDY™</a>. All Rights
                 Reserved.</span>
         </div>
     </footer>
-
-
 </body>
 
 </html>
