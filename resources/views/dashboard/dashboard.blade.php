@@ -42,8 +42,13 @@
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                        <button onclick=irASeccion2()
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</button>
+                        <script>
+                            function irASeccion2() {
+                                window.location.href = '#Servicios;'; // Esto apunta al elemento con el id "seccion2"
+                            }
+                        </script>
                     </li>
                 </ul>
             </div>
@@ -62,13 +67,13 @@
             </div>
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
+                    <a href="https://github.com/2A2G/JAVA" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Java.jpg"
                             alt="Bonnie Avatar">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">JAVA</a>
+                            <a href="https://github.com/2A2G/JAVA" target="_blank">JAVA</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Oracle</span>
                         <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Java es un lenguaje de
@@ -79,46 +84,32 @@
                             estándar para facilitar
                             el desarrollo de aplicaciones.</p>
                         <ul class="flex space-x-4 sm:mt-0">
-                            <li>
-                                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    </svg>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
+                    <a href="https://github.com/2A2G/PHP" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_PHP.png"
                             alt="Jese Avatar">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">PHP</a>
+                            <a href="https://github.com/2A2G/PHP" target="_blank">PHP</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Rasmus Lerdorf</span>
                         <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> es un lenguaje de código
                             abierto muy popular especialmente
                             adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
-                        <ul class="flex space-x-4 sm:mt-0">
-                            <li>
-                                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
-                                        aria-hidden="true"></svg>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
+                    <a href="https://github.com/2A2G/LARAVEL" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Laravel.png"
                             alt="Michael Avatar">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">LARAVEL</a>
+                            <a href="https://github.com/2A2G/LARAVEL" target="_blank">LARAVEL</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Framework de PHP</span>
                         <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Laravel es un framework PHP
@@ -127,15 +118,6 @@
                             modernas.
                             Posee un ecosistema integral que combina funciones integradas y una variedad de paquetes y
                             extensiones compatibles. .</p>
-                        <ul class="flex space-x-4 sm:mt-0">
-                            <li>
-                                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
-                                        aria-hidden="true"></svg>
-                                </a>
-                            </li>
-
-                        </ul>
                     </div>
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
@@ -152,14 +134,6 @@
                             proceso de creación de una
                             representación visual o esquema que define los sistemas de recopilación y administración de
                             información de cualquier organización.</p>
-                        <ul class="flex space-x-4 sm:mt-0">
-                            <li>
-                                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
-                                        aria-hidden="true"></svg>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -167,7 +141,7 @@
     </section>
 
     {{-- Sesion de servicios --}}
-    <section class="bg-white dark:bg-gray-900">
+    <section id=Servicios; class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:px-6">
             <div class="" style="margin: 0; width: 100%; text-align: justify;">
                 <center>
@@ -175,11 +149,16 @@
                         PARA OFRECERTE?</h2>
                 </center>
                 <br>
-                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOC OF STUDY, nos hemos enfocado en la
-                    creación de repositorios de código abierto. A travésde esta iniciativa, buscamos impulsar el avance tecnológico y ofrecer herramientas que sean de gran
-                    utilidad para la comunidad. Cada línea de código que compartimos es un paso hacia adelante en la colaboración global, permitiendo a desarrolladores y
-                    entusiastas acceder a soluciones innovadoras. Creemos en el poder de la comunidad para transformar ideas en realidades tangibles. Al proporcionar recursos
-                     abiertos, aspiramos a fomentar el aprendizaje, la creatividad y el progreso en el mundo de la tecnología.</p>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOC OF STUDY, nos
+                    hemos enfocado en la
+                    creación de repositorios de código abierto. A travésde esta iniciativa, buscamos impulsar el avance
+                    tecnológico y ofrecer herramientas que sean de gran
+                    utilidad para la comunidad. Cada línea de código que compartimos es un paso hacia adelante en la
+                    colaboración global, permitiendo a desarrolladores y
+                    entusiastas acceder a soluciones innovadoras. Creemos en el poder de la comunidad para transformar
+                    ideas en realidades tangibles. Al proporcionar recursos
+                    abiertos, aspiramos a fomentar el aprendizaje, la creatividad y el progreso en el mundo de la
+                    tecnología.</p>
                 <br>
                 <br>
             </div>
@@ -195,7 +174,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Promovemos colaboración global mediante repositorios de código. Únete a la innovación tecnológica con AG y BLOC OF STUDY.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Promovemos colaboración global mediante repositorios de
+                        código. Únete a la innovación tecnológica con AG y BLOC OF STUDY.</p>
                 </div>
                 <div>
                     <div
@@ -208,7 +188,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Garantizamos cumplimiento legal en repositorios de código abierto. Confianza y transparencia son nuestra prioridad.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Garantizamos cumplimiento legal en repositorios de
+                        código abierto. Confianza y transparencia son nuestra prioridad.</p>
                 </div>
                 <div>
                     <div
@@ -224,7 +205,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Simplificamos procesos con automatización empresarial en AG y BLOC OF STUDY. Libera tiempo para lo esencial.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Simplificamos procesos con automatización empresarial
+                        en AG y BLOC OF STUDY. Libera tiempo para lo esencial.</p>
                 </div>
                 <div>
                     <div
@@ -240,7 +222,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Gestión financiera sólida impulsa nuestra labor en repositorios de código. Transparencia en cada paso.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Gestión financiera sólida impulsa nuestra labor en
+                        repositorios de código. Transparencia en cada paso.</p>
                 </div>
                 <div>
                     <div
@@ -253,7 +236,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Diseño empresarial centrado en usuarios, reflejado en repositorios de AG y BLOC OF STUDY. Tecnología con propósito.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Diseño empresarial centrado en usuarios, reflejado en
+                        repositorios de AG y BLOC OF STUDY. Tecnología con propósito.</p>
                 </div>
                 <div>
                     <div
@@ -266,7 +250,8 @@
                         </svg>
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Operaciones eficientes para brindar soluciones tecnológicas desde AG y BLOC OF STUDY. Avanzando juntos.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Operaciones eficientes para brindar soluciones
+                        tecnológicas desde AG y BLOC OF STUDY. Avanzando juntos.</p>
                 </div>
             </div>
         </div>
