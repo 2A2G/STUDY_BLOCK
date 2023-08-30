@@ -117,7 +117,8 @@
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">MODELADO DE BASE DE DATOS</a>
+                            <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">MODELADO DE BASE DE
+                                DATOS</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Sql</span>
                         <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> El modelado de datos es el
@@ -258,13 +259,11 @@
                 <ul
                     class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                        <a href="{{ route('welcome') }}" class="mr-4 hover:underline md:mr-6 ">About</a>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy
+                            Policy</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline">Contact</a>

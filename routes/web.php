@@ -18,4 +18,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[ControllerProof_1::class, '__invoke'])->name('welcome');
 
 Route::get('Dashboard', [Proof1Controller::class, 'index'])->name('Dashboard.home');
-
