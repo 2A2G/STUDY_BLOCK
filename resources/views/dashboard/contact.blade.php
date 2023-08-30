@@ -74,10 +74,10 @@
             <a href="enlace_facebook" target="_blank">
                 <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="enlace_instagram" target="_blank">
+            <a href="https://instagram.com/g24Aldair" target="_blank">
                 <i class="fab fa-instagram-square"></i>
             </a>
-            <a href="enlace_twitter" target="_blank">
+            <a href="https://twitter.com/242A2G" target="_blank">
                 <i class="fab fa-twitter-square"></i>
             </a>
 
