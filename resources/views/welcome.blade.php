@@ -47,7 +47,7 @@
                     <button data-modal-target="staticModal" data-modal-toggle="staticModal" class="block"
                         type="button">
                         <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                            <image href=/Icon/Icon_Aldair.jpg width="200" height="200" />
+                            <image href="/Icon/Icon_LogoAldair.jpg" width="200" height="200" />
                         </svg>
                         </a>
                     </button>
@@ -76,7 +76,7 @@
                     Política de Privacidad y Redirección
                 </h3>
                 <button type="button"
-                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="inline-flex items-center justify-center w-8 h-8 ml-auto text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
                     data-modal-hide="staticModal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 14 14">

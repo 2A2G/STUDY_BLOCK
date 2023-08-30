@@ -16,7 +16,7 @@
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a href="{{ route('welcome') }}" class="flex items-center">
-                <img src=/Icon/Icon_Aldair.jpg class="h-8 mr-3" alt="Logo de AG" />
+                <img src=/Icon/Icon_LogoAldair.jpg class="h-8 mr-3" alt="Logo de AG" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOC OF STUDY</span>
             </a>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -252,7 +252,7 @@
         <div class="w-full max-w-screen-xl p-4 mx-auto md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="{{ route('welcome') }}" class="flex items-center mb-4 sm:mb-0">
-                    <img src="/Icon/Icon_Aldair.jpg" class="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src="/Icon/Icon_LogoAldair.jpg" class="h-8 mr-3" alt="Flowbite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOC OF
                         STUDY</span>
                 </a>
@@ -266,7 +266,7 @@
                             Policy</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">Contact</a>
+                        <a href="{{route('Dashboard.contact')}}" class="hover:underline">Contact</a>
                     </li>
                 </ul>
             </div>

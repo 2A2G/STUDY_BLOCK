@@ -15,4 +15,9 @@ class Proof1Controller extends Controller
     {
         return view('dashboard.dashboard');
     }
+
+    public function contact()
+    {
+        return view('dashboard.contact');
+    }
 }

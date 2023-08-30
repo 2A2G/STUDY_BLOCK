@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[ControllerProof_1::class, '__invoke'])->name('welcome');
 
 Route::get('Dashboard', [Proof1Controller::class, 'index'])->name('Dashboard.home');
+
+Route::get('/Contact', [Proof1Controller::class, 'contact'])->name('Dashboard.contact');
