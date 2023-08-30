@@ -7,13 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLOC OF STUDY</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <style>
+        .profile img:hover {
+            transform: scale(1.01);
+        }
+        .profil img:hover {
+            transform: scale(1.5);
 
-
+        }
+    </style>
 </head>
 
 <body>
     {{-- Sesion de nav --}}
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="profil">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a href="{{ route('welcome') }}" class="flex items-center">
                 <img src=/Icon/Icon_LogoAldair.jpg class="h-8 mr-3" alt="Logo de AG" />
@@ -46,7 +53,7 @@
     </nav>
 
     {{-- Sesion Informaion de repositorio --}}
-    <section class="bg-white dark:bg-gray-900">
+    <section class="profile">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 ">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
                 <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nuestros
@@ -248,7 +255,7 @@
         </div>
     </section>
     {{-- Sesion de footer --}}
-    <footer class="m-4 bg-white rounded-lg shadow dark:bg-gray-900">
+    <footer class="profil">
         <div class="w-full max-w-screen-xl p-4 mx-auto md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="{{ route('welcome') }}" class="flex items-center mb-4 sm:mb-0">
@@ -266,7 +273,7 @@
                             Policy</a>
                     </li>
                     <li>
-                        <a href="{{route('Dashboard.contact')}}" class="hover:underline">Contact</a>
+                        <a href="{{ route('Dashboard.contact') }}" class="hover:underline">Contact</a>
                     </li>
                 </ul>
             </div>
