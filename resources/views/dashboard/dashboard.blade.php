@@ -16,19 +16,9 @@
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a href="{{ route('welcome') }}" class="flex items-center">
-                <img src=/Icon/Icon_Aldair.jpg class="h-8 mr-3" alt="Flowbite Logo" />
+                <img src=/Icon/Icon_Aldair.jpg class="h-8 mr-3" alt="Logo de AG" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOC OF STUDY</span>
             </a>
-            <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
                     class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -69,7 +59,7 @@
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://github.com/2A2G/JAVA" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Java.jpg"
-                            alt="Bonnie Avatar">
+                            alt="Icono de Java">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -90,7 +80,7 @@
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://github.com/2A2G/PHP" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_PHP.png"
-                            alt="Jese Avatar">
+                            alt="Icono de PHP">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -105,7 +95,7 @@
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://github.com/2A2G/LARAVEL" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Laravel.png"
-                            alt="Michael Avatar">
+                            alt="Icono de Laravel">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -121,13 +111,13 @@
                     </div>
                 </div>
                 <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
+                    <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">
                         <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_BaseDatos.png"
-                            alt="Sofia Avatar">
+                            alt="Icono de DataBase">
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">MODELADO DE BASE DE DATOS</a>
+                            <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">MODELADO DE BASE DE DATOS</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">Sql</span>
                         <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> El modelado de datos es el
