@@ -71,7 +71,7 @@
         <p>Carrera: <i class="fas fa-book"></i> Software Development</p>
         <p>Número de Teléfono: <i class="fas fa-phone"></i> +57 300 489 1278</p>
         <div class="social-links">
-            <a href="enlace_facebook" target="_blank">
+            <a href="https://web.facebook.com/profile.php?id=100081137825620" target="_blank">
                 <i class="fab fa-facebook-square"></i>
             </a>
             <a href="https://instagram.com/g24Aldair" target="_blank">

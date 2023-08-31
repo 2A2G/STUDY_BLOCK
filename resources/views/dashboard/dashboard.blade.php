@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BLOC OF STUDY</title>
+    <title>BLOCK OF STUDY</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         .profile img:hover {
@@ -24,7 +24,7 @@
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a href="{{ route('welcome') }}" class="flex items-center">
                 <img src=/Icon/Icon_LogoAldair.jpg class="h-8 mr-3" alt="Logo de AG" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOC OF STUDY</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOCK OF STUDY</span>
             </a>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
@@ -147,7 +147,7 @@
                         PARA OFRECERTE?</h2>
                 </center>
                 <br>
-                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOC OF STUDY, nos
+                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOCK OF STUDY, nos
                     hemos enfocado en la
                     creación de repositorios de código abierto. A travésde esta iniciativa, buscamos impulsar el avance
                     tecnológico y ofrecer herramientas que sean de gran
@@ -173,7 +173,7 @@
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
                     <p class="text-gray-500 dark:text-gray-400">Promovemos colaboración global mediante repositorios de
-                        código. Únete a la innovación tecnológica con AG y BLOC OF STUDY.</p>
+                        código. Únete a la innovación tecnológica con AG y BLOCK OF STUDY.</p>
                 </div>
                 <div>
                     <div
@@ -204,7 +204,7 @@
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
                     <p class="text-gray-500 dark:text-gray-400">Simplificamos procesos con automatización empresarial
-                        en AG y BLOC OF STUDY. Libera tiempo para lo esencial.</p>
+                        en AG y BLOCK OF STUDY. Libera tiempo para lo esencial.</p>
                 </div>
                 <div>
                     <div
@@ -235,7 +235,7 @@
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
                     <p class="text-gray-500 dark:text-gray-400">Diseño empresarial centrado en usuarios, reflejado en
-                        repositorios de AG y BLOC OF STUDY. Tecnología con propósito.</p>
+                        repositorios de AG y BLOCK OF STUDY. Tecnología con propósito.</p>
                 </div>
                 <div>
                     <div
@@ -249,7 +249,7 @@
                     </div>
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
                     <p class="text-gray-500 dark:text-gray-400">Operaciones eficientes para brindar soluciones
-                        tecnológicas desde AG y BLOC OF STUDY. Avanzando juntos.</p>
+                        tecnológicas desde AG y BLOCK OF STUDY. Avanzando juntos.</p>
                 </div>
             </div>
         </div>
@@ -260,7 +260,7 @@
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="{{ route('welcome') }}" class="flex items-center mb-4 sm:mb-0">
                     <img src="/Icon/Icon_LogoAldair.jpg" class="h-8 mr-3" alt="Flowbite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOC OF
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOCK OF
                         STUDY</span>
                 </a>
                 <ul
@@ -279,7 +279,7 @@
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-                    href="{{ route('welcome') }}" class="hover:underline">BLOC OF STUDY™</a>. All Rights
+                    href="{{ route('welcome') }}" class="hover:underline">BLOCK OF STUDY™</a>. All Rights
                 Reserved.</span>
         </div>
     </footer>
