@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLOCK OF STUDY</title>
+    <link rel="icon" href="/Icon/Icon_LogoAldair.jpg" type="image/jpeg"> <!-- Enlace al favicon -->
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         .profile img:hover {
@@ -284,5 +286,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>

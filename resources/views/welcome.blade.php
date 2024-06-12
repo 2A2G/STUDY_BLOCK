@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pagina de Inicio</title>
+    <title>BLOCK OF STUDY</title>
+    <link rel="icon" href="/Icon/Icon_LogoAldair.jpg" type="image/jpeg"> <!-- Enlace al favicon -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
@@ -15,14 +16,14 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
             <h1
                 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                ¡Hello, wold
+                ¡Hello, world
             </h1>
             <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
                 Esta pagina y los diferentes enlaces los llevará a un repositorio publico en GitHub,
                 donde estarán publicados varios programas de los diferentes lenguajes de programación.
             </p>
             <span class="font-semibold text-gray-400 uppercase">Soy Aldair Antonio Gutierrez Guerrero, y te doy la
-                bienvenida a "HELLO, WOLD"
+                bienvenida a "HELLO, WORLD"
             </span>
             <br>
             <br>
@@ -41,7 +42,7 @@
 
             <br> <br>
             <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-                <span class="font-semibold text-gray-400 uppercase">FEATURED IN</span>
+                <span class="font-semibold text-gray-400 uppercase">PRESENTADO EN</span>
                 <div class="flex flex-wrap items-center justify-center mt-8 text-gray-500 sm:justify-between">
 
                     <button data-modal-target="staticModal" data-modal-toggle="staticModal" class="block"
