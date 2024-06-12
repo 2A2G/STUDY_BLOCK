@@ -11,6 +11,7 @@
         .profile img:hover {
             transform: scale(1.01);
         }
+
         .profil img:hover {
             transform: scale(1.5);
 
@@ -47,6 +48,9 @@
                             }
                         </script>
                     </li>
+                    <li>
+                        <a href="{{ route('Dashboard.contact') }}" class="hover:underline">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,7 +60,7 @@
     <section class="profile">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 ">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
-                <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nuestros
+                <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Mis
                     Repositorios</h2>
                 <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore toda la colección de
                     elementos y
@@ -269,17 +273,13 @@
                         <a href="{{ route('welcome') }}" class="mr-4 hover:underline md:mr-6 ">About</a>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy
-                            Policy</a>
-                    </li>
-                    <li>
                         <a href="{{ route('Dashboard.contact') }}" class="hover:underline">Contact</a>
                     </li>
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-                    href="{{ route('welcome') }}" class="hover:underline">BLOCK OF STUDY™</a>. All Rights
+                    href="{{ route('welcome') }}" class="hover:underline">STUDY BLOCK™</a>. All Rights
                 Reserved.</span>
         </div>
     </footer>

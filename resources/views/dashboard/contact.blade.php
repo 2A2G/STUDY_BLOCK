@@ -81,7 +81,7 @@
                 <i class="fab fa-twitter-square"></i>
             </a>
 
-            <a href="enlace_linkedin" target="_blank">
+            <a href="https://www.linkedin.com/in/aldair-gutierrez-b002a9274/" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://github.com/2A2G" target="_blank">
