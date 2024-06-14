@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\ControllerOne;
 use App\Http\Controllers\ControllerProof_1;
-use App\Http\Controllers\Proof1Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[ControllerProof_1::class, '__invoke'])->name('welcome');
+Route::get('/', [ControllerProof_1::class, '__invoke'])->name('welcome');
 
-Route::get('Dashboard', [Proof1Controller::class, 'index'])->name('Dashboard.home');
+Route::get('Dashboard', [ControllerOne::class, 'index'])->name('Dashboard.home');
 
-Route::get('/Contact', [Proof1Controller::class, 'contact'])->name('Dashboard.contact');
+Route::get('/Contact', [ControllerOne::class, 'contact'])->name('Dashboard.contact');

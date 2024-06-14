@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layout.layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BLOCK OF STUDY</title>
-    <link rel="icon" href="/Icon/Icon_LogoAldair.jpg" type="image/jpeg"> <!-- Enlace al favicon -->
+@section('title', 'STUDY BLOCK')
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <style>
-        .profile img:hover {
-            transform: scale(1.01);
-        }
-
-        .profil img:hover {
-            transform: scale(1.5);
-
-        }
-    </style>
-</head>
-
-<body>
-    {{-- Sesion de nav --}}
+@section('content')
     <nav class="profil">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a href="{{ route('welcome') }}" class="flex items-center">
@@ -68,79 +48,30 @@
                     elementos y
                     componentes de código abierto creados por AG.</p>
             </div>
+
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-                <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="https://github.com/2A2G/JAVA" target="_blank">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Java.jpg"
-                            alt="Icono de Java">
-                    </a>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="https://github.com/2A2G/JAVA" target="_blank">JAVA</a>
-                        </h3>
-                        <span class="text-gray-500 dark:text-gray-400">Oracle</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Java es un lenguaje de
-                            programación
-                            que se compila en bytecode y se ejecuta en una máquina virtual, lo que permite que el código
-                            se ejecute
-                            en cualquier plataforma con una JVM instalada, y ofrece un gran conjunto de bibliotecas
-                            estándar para facilitar
-                            el desarrollo de aplicaciones.</p>
-                        <ul class="flex space-x-4 sm:mt-0">
-                        </ul>
+                @foreach ($reposData as $repo)
+                    <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-[#457B9D] dark:border-gray-700">
+                        <a href="{{ $repo['url'] }}" target="_blank">
+                            <img class="w-full md:w-48 rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Java.jpg"
+                                alt="Icono de Java">
+                        </a>
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <a href="{{ $repo['url'] }}" target="_blank">{{ $repo['name'] }}</a>
+                            </h3>
+                            <!-- Si tienes información adicional como el lenguaje del repositorio, puedes mostrarlo aquí -->
+                            <!-- <span class="text-gray-500 dark:text-gray-400">{{ $repo['language'] }}</span> -->
+                            <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">{{ $repo['description'] }}
+                            </p>
+                            <ul class="flex space-x-4 sm:mt-0">
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="https://github.com/2A2G/PHP" target="_blank">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_PHP.png"
-                            alt="Icono de PHP">
-                    </a>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="https://github.com/2A2G/PHP" target="_blank">PHP</a>
-                        </h3>
-                        <span class="text-gray-500 dark:text-gray-400">Rasmus Lerdorf</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> es un lenguaje de código
-                            abierto muy popular especialmente
-                            adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
-                    </div>
-                </div>
-                <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="https://github.com/2A2G/LARAVEL" target="_blank">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_Laravel.png"
-                            alt="Icono de Laravel">
-                    </a>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="https://github.com/2A2G/LARAVEL" target="_blank">LARAVEL</a>
-                        </h3>
-                        <span class="text-gray-500 dark:text-gray-400">Framework de PHP</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Laravel es un framework PHP
-                            gratis y
-                            de código abierto que brinda un conjunto de herramientas y recursos para crear aplicaciones
-                            modernas.
-                            Posee un ecosistema integral que combina funciones integradas y una variedad de paquetes y
-                            extensiones compatibles. .</p>
-                    </div>
-                </div>
-                <div class="items-center rounded-lg shadow bg-gray-50 sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/Icon/Icon_BaseDatos.png"
-                            alt="Icono de DataBase">
-                    </a>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="https://github.com/2A2G/MODELADO_DATABASE" target="_blank">MODELADO DE BASE DE
-                                DATOS</a>
-                        </h3>
-                        <span class="text-gray-500 dark:text-gray-400">Sql</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> El modelado de datos es el
-                            proceso de creación de una
-                            representación visual o esquema que define los sistemas de recopilación y administración de
-                            información de cualquier organización.</p>
-                    </div>
-                </div>
+                @endforeach
             </div>
+
+
         </div>
     </section>
 
@@ -153,7 +84,7 @@
                         PARA OFRECERTE?</h2>
                 </center>
                 <br>
-                <p class="text-gray-500 sm:text-xl dark:text-gray-900">Desde AG y su subdirectorio BLOCK OF STUDY, nos
+                <p class="text-gray-500 sm:text-xl dark:text-   ">Desde AG y su subdirectorio BLOCK OF STUDY, nos
                     hemos enfocado en la
                     creación de repositorios de código abierto. A travésde esta iniciativa, buscamos impulsar el avance
                     tecnológico y ofrecer herramientas que sean de gran
@@ -269,8 +200,7 @@
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BLOCK OF
                         STUDY</span>
                 </a>
-                <ul
-                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
                         <a href="{{ route('welcome') }}" class="mr-4 hover:underline md:mr-6 ">About</a>
                     </li>
@@ -285,7 +215,4 @@
                 Reserved.</span>
         </div>
     </footer>
-</body>
-
-
-</html>
+@endsection
